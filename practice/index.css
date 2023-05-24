@@ -1,0 +1,44 @@
+.heading
+{
+    color:#106476;
+    text-align: center;
+    font-size: 48px;
+}
+.remainig-heading
+{
+    color:white;
+    font-size: 48px;
+    background-color: #106476;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boxes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid red;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.boxes .box
+{
+    border: 10px solid yellow;
+}
+.boxes .box .img
+{
+    display: flex;
+    margin: auto;
+}
+.boxes .box img
+{
+    width: 353px;
+    height:235px;
+    border-radius: 10px;
+    margin: auto;
+}
+.boxes .box .content
+{
+    border: 1px solid red;
+    padding: 15px;
+}
